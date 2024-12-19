@@ -1,0 +1,35 @@
+{
+  "name": "uk-premier-league",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A UK Premier League application that allows users to view the latest match results, team standings, and analysis of recent matches. It also provides information on teams and players, making it a go-to source for Premier League fans.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --experimental-modules --es-module-specifier-resolution=node ../tests/app.test.mjs",
+    "start": "node app.mjs",
+    "dev": "nodemon app.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "csv-parse": "^5.5.6",
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.1",
+    "express-session": "^1.18.1",
+    "hbs": "^4.2.0",
+    "mongo-sanitize": "^1.1.0",
+    "mongoose": "^8.8.0",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^5.1.2",
+    "concurrently": "^9.1.0",
+    "mocha": "^10.8.2",
+    "supertest": "^7.0.0"
+  }
+}

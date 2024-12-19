@@ -1,0 +1,125 @@
+.form-container-season {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.form-title-season {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.form-group-season {
+    margin-bottom: 20px;
+}
+
+.form-label-season {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: #4a5568;
+    font-size: 14px;
+}
+
+.form-input-season {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.2s ease;
+    background-color: #f8fafc;
+}
+
+.form-input-season:focus {
+    outline: none;
+    border-color: #4299e1;
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.1);
+}
+
+.form-input-season::placeholder {
+    color: #a0aec0;
+}
+
+.form-button-season {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #4299e1;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-top: 20px;
+}
+
+.form-button-season:hover {
+    background-color: #3182ce;
+    transform: translateY(-1px);
+}
+
+.form-button-season:active {
+    transform: translateY(0);
+}
+
+.form-error-season {
+    color: #e53e3e;
+    font-size: 14px;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 8px;
+    background-color: #fff5f5;
+    border-radius: 4px;
+    border: 1px solid #feb2b2;
+}
+
+.loader-container-season {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader-season {
+    border: 3px solid #f3f3f3;
+    border-top: 3px solid #ffffff;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    animation: spin-season 1s linear infinite;
+}
+
+@keyframes spin-season {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@media (max-width: 480px) {
+    .form-container-season {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .form-title-season {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .form-input-season {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .form-button-season {
+        padding: 10px;
+        font-size: 14px;
+    }
+}

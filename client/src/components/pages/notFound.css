@@ -1,0 +1,21 @@
+.not-found-container {
+    text-align: center;
+    padding: 50px;
+    color: #333;
+}
+
+.not-found-container h1 {
+    font-size: 5rem;
+    color: #d9534f;
+}
+
+.not-found-container p {
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+.not-found-container .btn {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
